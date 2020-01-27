@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 class AddRecordDemo{
 	public static void main(String ar[]){
-		try{
+		try{	
+			//Here the database used for storing the schema is HeidiSQL.
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost/iactdata?user=root&password=");
 			Scanner s1 = new Scanner(System.in);
