@@ -1,6 +1,8 @@
 import java.sql.*;
 import java.util.Scanner;
 
+// This program will demonstrate you on how to delete record from the table schema that is already made.
+// SQL queries will have differnt file.
 
 class DeleteRecordDemo{
 	public static void main(String ar[]){
