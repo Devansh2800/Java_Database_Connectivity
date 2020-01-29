@@ -1,6 +1,8 @@
 import java.sql.*;
 import java.util.Scanner;
 
+// Program represents the display of employee record table stored in the database.
+
 class DisplayAllDemo{
 	public static void main(String ar[]){
 		try{
