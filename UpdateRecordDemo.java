@@ -2,6 +2,8 @@ import java.sql.*;
 import java.util.Scanner;
 
 
+//This program will show you the updation of the record in the database using update query.
+
 class UpdateRecordDemo{
 	public static void main(String ar[]){
 		try{
